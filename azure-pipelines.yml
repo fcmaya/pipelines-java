@@ -5,6 +5,11 @@
 
 trigger:
 - main
+- releases/*
+
+# pr:
+#  - main
+#  - releases/*
 
 strategy:
   matrix:
